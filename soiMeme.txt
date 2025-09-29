@@ -11,3 +11,20 @@ def funA(n):
 # prédire les erreurs qui pourraient se produire
 # modifier le programme pour éviter ces erreurs
 
+import turtle as tl
+
+def funB(n):
+	if n>=200:
+		return
+	else:
+		tl.fd(n)
+		tl.rt(90)
+		tl.fd(n)
+		tl.rt(90)
+		funB(n+10)
+		
+# tester avec funB(1) puis exitonclick()
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
+
