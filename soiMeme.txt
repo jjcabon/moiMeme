@@ -1,0 +1,13 @@
+def funA(n):
+	if n==0:
+		return 0
+	else:
+		return n + funA(n-1)
+		
+#nommer ce fichier soiMeme.py
+#créer un fichier test_soiMeme
+# tester avec funA(1) puis funA(7)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
+
