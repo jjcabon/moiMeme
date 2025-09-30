@@ -27,4 +27,44 @@ def funB(n):
 # Documenter la fonction
 # prédire les erreurs qui pourraient se produire
 # modifier le programme pour éviter ces erreurs
+#adapte ce programme pour modifier les motifs
+
+
+
+def funC(n):
+    if n>=0:
+        print(n)
+        funC(n-1) 
+# tester avec funC(10) puis funC(5)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreu
+
+
+def funD(x) :
+    if x<=0:
+        return
+    else:
+        tl. fd(x) 
+        tl. lt(120) 
+        funD(x+10)
+
+# tester avec funD(10) puis funD(16)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
+
+
+def pasc(n, p) :
+     if p==0 or p==n:
+            return 1
+     else:
+            return pasc(n-1,p-1)+pasc(n-1,p)
+
+
+# tester avec pasc(2,1) puis pasc(3,2)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
+
 
