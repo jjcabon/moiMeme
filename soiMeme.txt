@@ -68,3 +68,13 @@ def pasc(n, p) :
 # modifier le programme pour éviter ces erreurs
 
 
+def st(n, k) :
+     if k==1 or k==n:
+            return 1
+     else:
+            return st(n-1,k-1)+k*st(n-1,k)
+
+# tester avec st(2,2) puis st(3.2)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
