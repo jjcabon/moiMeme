@@ -12,10 +12,11 @@
 def funA(n):
 	""" on calcule la somme n+(n-1)+ ... +2+1+0 
 	n est un entier positif"""
-	if n==0:
-		return 0
-	else:
-		return n + funA(n-1)
+	if isinstance(n,int) and n>=0:
+		if n==0:
+			return 0
+		else:
+			return n + funA(n-1)
 		
 #nommer ce fichier soiMeme.py
 #créer un fichier test_soiMeme
@@ -29,14 +30,15 @@ import turtle as tl
 def funB(n):
 	""" on construit une spirale ascendante
 		n est un entier positif ou nul """
-	if n>=200:
-		return
-	else:
-		tl.fd(n)
-		tl.rt(90)
-		tl.fd(n)
-		tl.rt(90)
-		funB(n+10)
+	if isinstance(n,int) and n>=0:
+		if n>=200:
+			return
+		else:
+			tl.fd(n)
+			tl.rt(90)
+			tl.fd(n)
+			tl.rt(90)
+			funB(n+10)
 		
 # tester avec funB(1) puis exitonclick()
 # Documenter la fonction
@@ -49,9 +51,10 @@ def funB(n):
 def funC(n):
 	""" permet de faire un compte à rebours, un décompte
 	avec un entier n plus grand que 0"""
-    if n>=0:
-        print(n)
-        funC(n-1) 
+	if isinstance(n,int) and n>=0:
+    	if n>=0:
+        	print(n)
+        	funC(n-1) 
 # tester avec funC(10) puis funC(5)
 # Documenter la fonction
 # prédire les erreurs qui pourraient se produire
@@ -61,6 +64,7 @@ def funC(n):
 def funD(x) :
 	""" on trace une spirale descendante 
 	avec un entier x plus grand que 0"""
+	if isinstance(x,int) :
     if x<=0:
         return
     else:
@@ -97,3 +101,4 @@ def st(n, k) :
 # Documenter la fonction
 # prédire les erreurs qui pourraient se produire
 # modifier le programme pour éviter ces erreurs
+
