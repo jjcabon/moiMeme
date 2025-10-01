@@ -1,0 +1,99 @@
+""" funA(n) --> somme 1+2+ ... +n
+	funB(n) --> spirale ascendante
+	funC(n) --> compte à rebours de n jusqu'à 1
+	funD(x) --> spirale descendante 
+	pasc(n, p) --> calcule les nombres de Pascal
+	st(n, k) --> calcule les nombres de stirling """
+
+
+
+
+
+def funA(n):
+	""" on calcule la somme n+(n-1)+ ... +2+1+0 
+	n est un entier positif"""
+	if n==0:
+		return 0
+	else:
+		return n + funA(n-1)
+		
+#nommer ce fichier soiMeme.py
+#créer un fichier test_soiMeme
+# tester avec funA(1) puis funA(7)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
+
+import turtle as tl
+
+def funB(n):
+	""" on construit une spirale ascendante
+		n est un entier positif ou nul """
+	if n>=200:
+		return
+	else:
+		tl.fd(n)
+		tl.rt(90)
+		tl.fd(n)
+		tl.rt(90)
+		funB(n+10)
+		
+# tester avec funB(1) puis exitonclick()
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
+#adapte ce programme pour modifier les motifs
+
+
+
+def funC(n):
+	""" permet de faire un compte à rebours, un décompte
+	avec un entier n plus grand que 0"""
+    if n>=0:
+        print(n)
+        funC(n-1) 
+# tester avec funC(10) puis funC(5)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreu
+
+
+def funD(x) :
+	""" on trace une spirale descendante 
+	avec un entier x plus grand que 0"""
+    if x<=0:
+        return
+    else:
+        tl. fd(x) 
+        tl. lt(120) 
+        funD(x-10)
+
+# tester avec funD(10) puis funD(16)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
+
+
+def pasc(n, p) :
+     if p==0 or p==n:
+            return 1
+     else:
+            return pasc(n-1,p-1)+pasc(n-1,p)
+
+
+# tester avec pasc(2,1) puis pasc(3,2)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
+
+
+def st(n, k) :
+     if k==1 or k==n:
+            return 1
+     else:
+            return st(n-1,k-1)+k*st(n-1,k)
+
+# tester avec st(2,2) puis st(3.2)
+# Documenter la fonction
+# prédire les erreurs qui pourraient se produire
+# modifier le programme pour éviter ces erreurs
