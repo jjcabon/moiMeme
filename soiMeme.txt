@@ -47,7 +47,7 @@ def funD(x) :
     else:
         tl. fd(x) 
         tl. lt(120) 
-        funD(x+10)
+        funD(x-10)
 
 # tester avec funD(10) puis funD(16)
 # Documenter la fonction
@@ -78,3 +78,4 @@ def st(n, k) :
 # Documenter la fonction
 # prédire les erreurs qui pourraient se produire
 # modifier le programme pour éviter ces erreurs
+
