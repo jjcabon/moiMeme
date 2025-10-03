@@ -62,7 +62,7 @@ def pasc(n, p) :
             return pasc(n-1,p-1)+pasc(n-1,p)
 
 
-# tester avec pasc(2,1) puis pasc(3,2)
+# tester avec pasc(2,1), pasc(3,2), pasc(5,2) et pasc(5,3)
 # Documenter la fonction
 # prédire les erreurs qui pourraient se produire
 # modifier le programme pour éviter ces erreurs
@@ -78,4 +78,5 @@ def st(n, k) :
 # Documenter la fonction
 # prédire les erreurs qui pourraient se produire
 # modifier le programme pour éviter ces erreurs
+
 
