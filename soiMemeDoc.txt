@@ -79,6 +79,10 @@ def funD(x) :
 
 
 def pasc(n, p) :
+	""" calcule les nombres de Pascal: 
+		ce sont le nombre de façons de choisir 
+		p objets parmis n objet distincts.
+		c'est le coeffient de x^p dans le 			développement de (1+x)^n"""
      if p==0 or p==n:
             return 1
      else:
@@ -92,6 +96,8 @@ def pasc(n, p) :
 
 
 def st(n, k) :
+	""" calcule les nombres de stirling:
+		ce sont le nombre de façons de 				constituer k groupes avec n personnes 		ou n objets. """
      if k==1 or k==n:
             return 1
      else:
@@ -101,4 +107,5 @@ def st(n, k) :
 # Documenter la fonction
 # prédire les erreurs qui pourraient se produire
 # modifier le programme pour éviter ces erreurs
+
 
