@@ -109,3 +109,4 @@ def st(n, k) :
 # modifier le programme pour éviter ces erreurs
 
 
+
