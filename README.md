@@ -1,1 +1,1 @@
-Cours #récursivité# niveau terminales NSI
+Cours **récursivité** niveau _terminales NSI_
