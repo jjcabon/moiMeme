@@ -1,1 +1,3 @@
-### Cours **récursivité** ~~niveau~~ _terminales NSI_ 
+### Cours
+**récursivité**
+~~niveau~~ _terminales NSI_ 
