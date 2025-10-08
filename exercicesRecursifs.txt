@@ -1,7 +1,8 @@
 exercice 1
 x^n=x*x^n-1  et x^0=1
 definis une fonction puissance(x,n)
-qui calcule x^nDonne sa complexité
+qui calcule x^n sans importer le module math
+Donne sa complexité
 
 exercice 2
 x^2k=(x^2)^k et x^2k+1 = x(x^2)^k et x^0=1
@@ -30,5 +31,6 @@ fonction insertion(L,x,n) insère x=L[n]
 sachant que L[:n-1]est triée
 fonction tri_insertion(L,n=len(L)) 
 qui va trier par insertion la liste L
+
 
 
