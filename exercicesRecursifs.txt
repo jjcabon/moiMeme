@@ -23,7 +23,9 @@ exercice 4:
 
 L=[1,1,1,2,2,3,3,3,3,4,5,5]
 nettoie(L) --> [1,2,3,4,5]
-Coder la fonction nettoie: avec un set, avec une boucle ou avec un appel récursif
+Coder la fonction nettoie: avec un set, 
+avec une boucle ou 
+avec un appel récursif
 
 exercice 5:
 Tri Insertion récursif
@@ -32,6 +34,7 @@ fonction insertion(L,x,n) insère x=L[n]
 sachant que L[:n-1]est triée
 fonction tri_insertion(L,n=len(L)) 
 qui va trier par insertion la liste L
+
 
 
 
