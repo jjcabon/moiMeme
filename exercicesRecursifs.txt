@@ -1,0 +1,34 @@
+exercice 1
+x^n=x*x^n-1  et x^0=1
+definis une fonction puissance(x,n)
+qui calcule x^nDonne sa complexité
+
+exercice 2
+x^2k=(x^2)^k et x^2k+1 = x(x^2)^k et x^0=1
+Définis une fonction puissanceRapide(x,n)
+qui calcule x^n
+Donne sa complexité
+
+exercice 3
+def mystere(n):
+	if n<2:
+		return str(n)
+	else:
+		return mystere(n//2)+str(n%2)
+		
+Documenter cette fonction
+
+exercice 4:
+
+L=[1,1,1,2,2,3,3,3,3,4,5,5]
+nettoie(L) --> [1,2,3,4,5]
+
+exercice 5:
+Tri Insertion récursif
+L une liste
+fonction insertion(L,x,n) insère x=L[n]
+sachant que L[:n-1]est triée
+fonction tri_insertion(L,n=len(L)) 
+qui va trier par insertion la liste L
+
+
